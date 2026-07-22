@@ -1,0 +1,20 @@
+# Config for the 2D toy-data stage (Part 1).
+# "tiny" = trains in seconds on CPU/MPS; used to learn the concepts.
+data:
+  name: swiss_roll      # swiss_roll | spirals | moons
+  n_samples: 8000
+
+schedule:
+  kind: cosine          # linear | cosine
+  timesteps: 200
+
+model:
+  hidden: 128           # width of the MLP denoiser
+  depth: 4              # number of hidden layers
+  time_embed_dim: 64
+
+train:
+  batch_size: 512
+  lr: 0.002
+  steps: 3000
+  seed: 0

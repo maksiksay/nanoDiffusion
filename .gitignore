@@ -1,0 +1,16 @@
+# venv
+.venv/
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+# data & artifacts
+data/
+checkpoints/
+*.pt
+*.ckpt
+# os / editor
+.DS_Store
+.vscode/
+.idea/

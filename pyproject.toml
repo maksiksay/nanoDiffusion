@@ -1,0 +1,19 @@
+[project]
+name = "nanodiffusion"
+version = "0.1.0"
+description = "A minimal, educational implementation of diffusion models, in the spirit of nanoGPT."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyter", "ipykernel"]
+
+[tool.setuptools.packages.find]
+include = ["nanodiffusion*"]
