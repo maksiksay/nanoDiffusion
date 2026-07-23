@@ -33,7 +33,8 @@ for the full arc. The notebooks build it up concept by concept:
 | Notebook | Concept |
 |----------|---------|
 | `00_intuition` | What is a diffusion model? (pictures — nothing to implement) |
-| `01_forward_process` | Noising, the reparameterization trick, schedules · **2 TODOs** |
+| `01_forward_process` | Noising, the reparameterization trick, schedules, VE, schedule playground · **2 TODOs** |
+| `01b_forward_process_zoo` | *(tour, no TODOs)* sub-VP, cold diffusion, blurring, masking, bridges |
 | `02_reverse_and_loss` | ε-prediction and the simple MSE loss · **3 TODOs** |
 | `03_sampling` | The DDPM sampler — noise → data · **1 TODO** |
 | `04_unet_mnist` | A minimal U-Net; first real images |
