@@ -4,6 +4,11 @@ A minimal, from-scratch, **educational** implementation of diffusion models — 
 the spirit of Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT). Learn how
 diffusion models work by building one, step by step, on data you can *see*.
 
+> **The soul of it, in one line:** *you learn to create by learning to reverse
+> destruction — and destruction is easy.* Notebook 00 tells the whole "why" —
+> the problem, the two ideas it grew from, and the reframing that made it work —
+> before any math.
+
 The journey follows the field's own history, from **DDPM (2020)** to modern
 **flow matching (2023+)**, on progressively harder data:
 **2D toy data → MNIST → CIFAR-10**, reusing the same clean code.
@@ -32,7 +37,7 @@ for the full arc. The notebooks build it up concept by concept:
 
 | Notebook | Concept |
 |----------|---------|
-| `00_intuition` | What is a diffusion model? (pictures — nothing to implement) |
+| `00_intuition` | **Why** diffusion models? — motivation, history, and first intuition (nothing to implement) |
 | `01_forward_process` | Noising, the reparameterization trick, schedules, VE, schedule playground · **2 TODOs** |
 | `01b_forward_process_zoo` | *(tour, no TODOs)* sub-VP, cold diffusion, blurring, masking, bridges |
 | `02_reverse_and_loss` | ε-prediction and the simple MSE loss · **3 TODOs** |
