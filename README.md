@@ -42,7 +42,7 @@ for the full arc. The notebooks build it up concept by concept:
 | `01b_forward_process_zoo` | *(tour, no TODOs)* sub-VP, cold diffusion, blurring, masking, bridges |
 | `02_reverse_and_loss` | ε-prediction, time embedding, the loss, training loop, denoising field · **5 TODOs** |
 | `03_sampling` | The DDPM sampler + the model's running x0-guess · **2 TODOs** |
-| `03b_ddpm_from_scratch` | *(complete reference)* the whole 2D DDPM in **one self-contained file** (no package imports) — generates a **heart** 🖤 |
+| `03b_ddpm_from_scratch` | **build the whole 2D DDPM yourself** in one self-contained file (no package imports) — generates a **heart** 🖤 · **6 TODOs** |
 | `04_unet_mnist` | A minimal U-Net; first real images |
 | `05_ddim_sampling` | Fast, deterministic sampling |
 | `06_guidance` | Classifier-free guidance (conditional generation) |
