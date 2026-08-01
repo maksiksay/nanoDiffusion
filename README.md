@@ -38,10 +38,10 @@ for the full arc. The notebooks build it up concept by concept:
 | Notebook | Concept |
 |----------|---------|
 | `00_intuition` | **Why** diffusion models? — motivation, history, and first intuition (nothing to implement) |
-| `01_forward_process` | Noising, the reparameterization trick, schedules, VE, schedule playground · **2 TODOs** |
+| `01_forward_process` | Meet the data, noising, reparameterization, schedules, cosine + recover-x0, VE, playground · **4 TODOs** |
 | `01b_forward_process_zoo` | *(tour, no TODOs)* sub-VP, cold diffusion, blurring, masking, bridges |
-| `02_reverse_and_loss` | ε-prediction and the simple MSE loss · **3 TODOs** |
-| `03_sampling` | The DDPM sampler — noise → data · **1 TODO** |
+| `02_reverse_and_loss` | ε-prediction, time embedding, the loss, training loop, denoising field · **5 TODOs** |
+| `03_sampling` | The DDPM sampler + the model's running x0-guess · **2 TODOs** |
 | `04_unet_mnist` | A minimal U-Net; first real images |
 | `05_ddim_sampling` | Fast, deterministic sampling |
 | `06_guidance` | Classifier-free guidance (conditional generation) |
